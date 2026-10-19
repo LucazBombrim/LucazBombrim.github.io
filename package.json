@@ -1,0 +1,12 @@
+{
+  "name": "portfolio-lucas-padilha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio de Lucas Padilha — programação, automação e projetos web.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

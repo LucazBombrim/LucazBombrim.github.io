@@ -1,0 +1,63 @@
+{
+  "data_base": "2026-06-30",
+  "linhas": {
+    "clientes": 16,
+    "produtos": 4,
+    "pedidos": 360,
+    "itens_pedido": 540,
+    "titulos": 299,
+    "movimentos_estoque": 480
+  },
+  "pedidos_faturados": 299,
+  "faturamento": "1236800.40",
+  "custo_produtos": "962886.40",
+  "frete_faturado": "37398.00",
+  "peso_vendido_kg": "703505",
+  "resultado_comercial": "236516.00",
+  "margem_percentual": "19.12",
+  "ticket_medio": "4136.46",
+  "saldo_a_receber": "397777.06",
+  "saldo_vencido": "248402.91",
+  "receita_por_mes": {
+    "2026-01": "188623.05",
+    "2026-02": "166787.20",
+    "2026-03": "169911.70",
+    "2026-04": "200936.40",
+    "2026-05": "311542.10",
+    "2026-06": "198999.95"
+  },
+  "receita_por_produto": {
+    "1": "165696.50",
+    "2": "181760.50",
+    "3": "300032.40",
+    "4": "589311.00"
+  },
+  "top_clientes": [
+    {
+      "id_cliente": 8,
+      "receita": "135888.45"
+    },
+    {
+      "id_cliente": 9,
+      "receita": "96845.20"
+    },
+    {
+      "id_cliente": 1,
+      "receita": "96412.55"
+    },
+    {
+      "id_cliente": 13,
+      "receita": "90971.30"
+    },
+    {
+      "id_cliente": 15,
+      "receita": "88100.55"
+    }
+  ],
+  "saldo_estoque_kg": {
+    "1": "244675",
+    "2": "240850",
+    "3": "161120",
+    "4": "129850"
+  }
+}

@@ -1,0 +1,12 @@
+dist/
+node_modules/
+.openai/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.venv/
+*.xlsx
+*.log
+.DS_Store
