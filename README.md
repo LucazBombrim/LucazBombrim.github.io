@@ -13,10 +13,10 @@ Estou construindo minha base em **Python, Java, HTML e CSS**. Desenvolvo projeto
 | Projeto | Necessidade | Material neste repositório |
 | --- | --- | --- |
 | [Faturamento de cargas](projetos/faturamento/README.md) | Ler pedidos do Excel, calcular peso e auxiliar no preenchimento de um aplicativo | Código Python demonstrativo, testes e documentação |
-| [Mapa de prospecção](projetos/prospeccao/README.md) | Organizar contatos e oportunidades comerciais do setor agropecuário | Estudo de caso |
-| [Atlas](projetos/atlas/README.md) | Organizar conteúdos, prática e continuidade dos estudos | Estudo de caso |
-| [Cardápio Lollo Cake](projetos/cardapio/README.md) | Facilitar a escolha dos produtos e a montagem do pedido pelo WhatsApp | Estudo de caso |
-| [Site MinerMais](projetos/institucional/README.md) | Apresentar o negócio e organizar um catálogo de nutrição animal | Estudo de caso |
+| [Mapa de prospecção](projetos/prospeccao/README.md) | Organizar contatos e oportunidades comerciais do setor agropecuário | Demonstração web e estudo de caso |
+| [Atlas](projetos/atlas/README.md) | Organizar conteúdos, prática e continuidade dos estudos | Demonstração web e estudo de caso |
+| [Cardápio Lollo Cake](projetos/cardapio/README.md) | Facilitar a escolha dos produtos e a montagem do pedido pelo WhatsApp | Demonstração web e estudo de caso |
+| [Site MinerMais](projetos/institucional/README.md) | Apresentar o negócio e organizar um catálogo de nutrição animal | Demonstração web e estudo de caso |
 
 O [site do portfólio](https://lucazbombrim.github.io/) apresenta os cinco projetos e uma demonstração interativa de cálculo de cargas. As miniaturas são representações ilustrativas.
 
@@ -24,10 +24,10 @@ O [site do portfólio](https://lucazbombrim.github.io/) apresenta os cinco proje
 
 - [Atlas — estudos](https://lucazbombrim.github.io/atlas/)
 - [Mapa de prospecção — dados fictícios](https://lucazbombrim.github.io/prospeccao/)
-- Cardápio digital — versão preparada para publicação; estudo de caso disponível.
-- MinerMais — versão preparada para publicação; estudo de caso disponível.
+- [Cardápio digital Lollo Cake](https://lucazbombrim.github.io/cardapio/)
+- [MinerMais — site institucional](https://lucazbombrim.github.io/minermais/)
 
-As demonstrações são versões educacionais para portfólio. Preservam o acesso dos projetos de origem e não divulgam a base de clientes. O cardápio demonstra o carrinho e a mensagem do pedido, sem enviar mensagens ou realizar vendas. As pastas `atlas/` e `prospeccao/` contêm os arquivos estáticos das demonstrações publicadas. Cardápio e MinerMais são apresentados como estudos de caso enquanto a publicação de suas imagens é concluída.
+As demonstrações são versões educacionais para portfólio. Preservam o acesso dos projetos de origem e não divulgam a base de clientes. O cardápio demonstra o carrinho e a mensagem do pedido, sem enviar mensagens ou realizar vendas. As pastas `atlas/`, `prospeccao/`, `cardapio/` e `minermais/` contêm os arquivos estáticos das quatro demonstrações publicadas. Lollo Cake e MinerMais são publicados sem fotos ou anexos; usam ilustrações em SVG e CSS, mantendo as demonstrações de catálogo e carrinho.
 
 ## Conhecimentos
 
@@ -47,7 +47,7 @@ As demonstrações são versões educacionais para portfólio. Preservam o acess
 
 ## Explorar localmente
 
-Abra `index.html` no navegador. O site é independente de serviços externos e não exige instalação de dependências.
+Abra `index.html` no navegador para ver o portfólio. Para usar também as demonstrações, sirva a raiz com `python -m http.server 8000` e abra `http://localhost:8000/`. O mapa usa a biblioteca D3 por CDN; não há dependências npm para instalar.
 
 Para validar e preparar os arquivos do site com Node.js 20 ou superior:
 

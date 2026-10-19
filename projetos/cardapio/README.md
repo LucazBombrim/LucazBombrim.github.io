@@ -2,7 +2,7 @@
 
 **Tipo:** projeto web de catálogo e organização de pedidos.
 
-Demonstração preparada; publicação das imagens pendente.
+[Abrir demonstração pública](https://lucazbombrim.github.io/cardapio/)
 
 ## Necessidade
 
@@ -26,4 +26,6 @@ Organização de catálogo, clareza de apresentação dos produtos e construçã
 
 ## Escopo deste portfólio
 
-A demonstração está preparada para publicação. A versão pública preserva o catálogo e o carrinho, mas exibe uma prévia da mensagem em uma janela local, sem abrir o WhatsApp nem enviar pedidos ao estabelecimento. Os valores são ilustrativos para este contexto. A miniatura do portfólio é ilustrativa.
+O repositório contém a demonstração e este estudo de caso. A versão pública preserva o catálogo e o carrinho, mas exibe uma prévia da mensagem em uma janela local, sem abrir o WhatsApp nem enviar pedidos ao estabelecimento. Os valores são ilustrativos para este contexto. A miniatura do portfólio é ilustrativa.
+
+A demonstração mantém os 282 produtos e usa ícones e ilustrações no lugar das fotos. O carrinho e a prévia da mensagem continuam disponíveis.
